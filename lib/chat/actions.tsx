@@ -52,7 +52,7 @@ async function generateCaption(
   groqApiKey: string
 ): Promise<string> {
   const groq = createOpenAI({
-    baseURL: 'https://api.kakasoar.top/openai/v1',
+    baseURL: 'https://api.groq.com/openai/v1',
     apiKey: groqApiKey
   })
 
